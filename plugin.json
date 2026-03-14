@@ -1,0 +1,14 @@
+{
+    "name": "Dialog",
+    "namespace": "dialog",
+    "platforms": {
+        "ios": {
+            "handlers": ["ios/DialogHandler.swift"],
+            "frameworks": ["UIKit"]
+        }
+    },
+    "js": ["js/dialog.js"],
+    "php": {
+        "files": ["php/Dialog.php"]
+    }
+}
