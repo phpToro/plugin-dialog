@@ -5,6 +5,10 @@
         "ios": {
             "handlers": ["ios/DialogHandler.swift"],
             "frameworks": ["UIKit"]
+        },
+        "macos": {
+            "handlers": ["macos/DialogHandler.swift"],
+            "frameworks": ["AppKit"]
         }
     },
     "js": ["js/dialog.js"],
